@@ -143,6 +143,53 @@ footer { padding-block: 0 40px; font: 400 12px var(--f-mono); color: var(--muted
   .bar select { flex: 1 1 45%; }
   .pick { flex: 1 1 100%; }
 }
+/* Idle "now showing" mode */
+.show-btn { font: 800 16px var(--f-display); letter-spacing: .05em; text-transform: uppercase; color: var(--teal); background: transparent;
+  border: 1px solid var(--teal); border-radius: 3px; padding: 8px 12px 7px; cursor: pointer; }
+.show-btn:hover { background: rgba(95,211,194,.12); }
+body.idling > .sign, body.idling > .aisles, body.idling > .bar, body.idling > main, body.idling > footer { visibility: hidden; }
+.idle { position: fixed; inset: 0; z-index: 50; display: grid; align-items: end; justify-items: center; cursor: pointer;
+  padding: max(24px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(24px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+  padding-bottom: max(64px, env(safe-area-inset-bottom, 0px)) !important;
+  background: linear-gradient(180deg, rgba(6,14,15,.05) 0%, rgba(6,14,15,.35) 35%, rgba(6,14,15,.86) 70%, rgba(6,14,15,.94) 100%); }
+.idle[hidden] { display: none; }
+.idle-top { position: absolute; top: max(18px, env(safe-area-inset-top, 0px)); left: max(20px, env(safe-area-inset-left, 0px)); right: max(20px, env(safe-area-inset-right, 0px));
+  display: flex; justify-content: space-between; align-items: baseline; font: 500 13px var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--teal); }
+.idle-top .clock { font: 800 clamp(28px, 4vw, 44px)/1 var(--f-display); letter-spacing: .04em; color: #fff3f0; text-shadow: 0 0 10px rgba(255,74,61,.6); font-variant-numeric: tabular-nums; }
+.idle-card { width: min(920px, 100%); display: grid; gap: 14px; text-align: left; transition: opacity .9s ease, transform .9s ease; }
+.idle-card.out { opacity: 0; transform: translateY(10px); }
+.idle-card .eyebrow { font: 500 13px var(--f-mono); letter-spacing: .16em; text-transform: uppercase; color: var(--era); }
+.idle-card h2 { margin: 0; font: 900 clamp(48px, 9vw, 120px)/.88 var(--f-display); text-transform: uppercase; letter-spacing: .01em; color: #fff3f0; text-wrap: balance;
+  text-shadow: 0 0 8px var(--neon), 0 0 30px rgba(255,74,61,.55); overflow-wrap: break-word; hyphens: manual; }
+.idle-card h2.long { font-size: clamp(38px, 6.5vw, 86px); }
+.idle-card h2.xlong { font-size: clamp(30px, 4.8vw, 64px); }
+.idle-card .meta, .idle-card .cast { font-size: clamp(14px, 1.6vw, 18px); }
+.idle-card .syn { font-size: clamp(17px, 2vw, 24px); line-height: 1.4; color: #e3ebe8; max-width: 40ch; }
+.idle-card .scores { margin: 0; font-size: clamp(14px, 1.6vw, 18px); color: var(--text); gap: 18px; }
+.idle-hint { position: absolute; bottom: max(18px, env(safe-area-inset-bottom, 0px)); left: 0; right: 0; text-align: center; font: 400 12px var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.idle-right { display: flex; align-items: flex-start; gap: clamp(16px, 3vw, 36px); text-align: right; }
+.idle-top .when { display: grid; justify-items: end; gap: 4px; }
+.idle-top .date { font: 500 12px var(--f-mono); letter-spacing: .12em; color: var(--muted); }
+.wx { display: grid; justify-items: end; gap: 4px; text-transform: none; letter-spacing: 0; }
+.wx .now { font: 800 clamp(22px, 3vw, 34px)/1 var(--f-display); color: #fff3f0; letter-spacing: .02em; }
+.wx .now span { font: 500 13px var(--f-body); color: var(--text); margin-left: 6px; letter-spacing: 0; }
+.wx .days { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 12px; font: 400 12px var(--f-mono); color: var(--muted); letter-spacing: .04em; }
+.wx .days span { white-space: nowrap; }
+.wx .days b { color: var(--teal); font-weight: 500; }
+@media (max-width: 560px) { .idle-top > span:first-child { display: none; } .idle-right { width: 100%; justify-content: space-between; } .wx { justify-items: start; text-align: left; } .wx .days { justify-content: flex-start; } }
+.ticker { position: absolute; left: 0; right: 0; bottom: max(44px, calc(env(safe-area-inset-bottom, 0px) + 30px)); display: flex; align-items: center;
+  background: rgba(6,14,15,.82); border-block: 1px solid rgba(255,74,61,.45); height: 40px; overflow: hidden; }
+.ticker[hidden] { display: none; }
+.ticker-tag { flex: none; height: 100%; display: grid; place-items: center; padding: 0 14px 0 max(14px, env(safe-area-inset-left, 0px));
+  background: var(--neon); color: #1a0605; font: 800 15px var(--f-display); letter-spacing: .08em; text-transform: uppercase; }
+.ticker-win { flex: 1; min-width: 0; overflow: hidden; height: 100%; display: flex; align-items: center; }
+.ticker-track { display: inline-flex; white-space: nowrap; gap: 0; font: 500 15px var(--f-body); color: var(--text); will-change: transform; }
+.ticker-track span { padding-right: 46px; }
+.ticker-track b { font: 500 11px var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--teal); margin-right: 8px; }
+.ticker-track span::after { content: "\25CF"; color: var(--neon); font-size: 8px; margin-left: 46px; vertical-align: 2px; }
+@keyframes tick { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.idle.has-news { padding-bottom: max(110px, calc(env(safe-area-inset-bottom, 0px) + 96px)) !important; }
+@media (prefers-reduced-motion: reduce) { .idle-card { transition: none; } }
 </style>
 </head>
 <body>
@@ -172,6 +219,7 @@ footer { padding-block: 0 40px; font: 400 12px var(--f-mono); color: var(--muted
       <option value="audience">Audience favourites</option>
     </select>
     <button class="pick" id="pick" type="button">Pick for tonight</button>
+    <button class="show-btn" id="showStart" type="button" title="Cycle through the collection, one title at a time">Now showing</button>
     <span class="count" id="count"></span>
   </div>
 </div>
@@ -184,6 +232,13 @@ footer { padding-block: 0 40px; font: 400 12px var(--f-mono); color: var(--muted
   <div class="grid" id="grid"></div>
 </main>
 
+<div class="idle" id="idle" hidden role="dialog" aria-label="Now showing">
+  <div class="idle-top"><span>Gaz's Video Library · Now showing</span>
+    <div class="idle-right"><div class="wx" id="wx" hidden></div><div class="when"><span class="clock" id="clock"></span><span class="date" id="date"></span></div></div></div>
+  <div class="idle-card" id="idleCard"></div>
+  <div class="ticker" id="ticker" hidden><span class="ticker-tag">News</span><div class="ticker-win"><div class="ticker-track" id="tickerTrack"></div></div></div>
+  <div class="idle-hint">Tap anywhere to browse the library</div>
+</div>
 <footer class="wrap">Scores are from Rotten Tomatoes, checked 14 October 2026 (TV shows use the score for the whole series): <i class="tom fresh"></i> fresh means 60% or more of critics liked it. "n/a" means too few reviews to score. Synopses are written for this library. IMDb links search IMDb for the title.</footer>
 
 <script>
@@ -318,6 +373,104 @@ $("#pick").addEventListener("click", pick);
 $("#again").addEventListener("click", pick);
 $("#clearpick").addEventListener("click", () => { $("#tonight").hidden = true; });
 setup();
+
+// Idle "now showing" mode: starts after 3 minutes untouched, or from the button.
+const IDLE_AFTER = 3 * 60 * 1000, SLIDE_EVERY = 12000;
+let idleTimer = null, slideTimer = null, clockTimer = null, wakeLock = null, deck = [];
+const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+function shuffleDeck() { deck = ITEMS.filter((f) => !f.ph).map((f) => [Math.random(), f]).sort((a, b) => a[0] - b[0]).map((x) => x[1]); }
+function idleSlide(f) {
+  const decade = decadeOf(f.y), fmt = f.fmt || FORMAT[f.sec] || "";
+  const scores = [f.rt != null ? `<span class="sc"><i class="tom ${f.rt >= 60 ? "fresh" : "rotten"}" aria-hidden="true"></i><span class="k">Critics</span> ${f.rt}%</span>` : "",
+    f.pc != null ? `<span class="sc"><span class="k">Audience</span> ${f.pc}%</span>` : ""].join("");
+  const where = f.set ? `From ${esc(f.set)}` : f.sec === "dvd" || f.sec === "bluray" ? "Film" : (SECTIONS.find((s) => s.match && s.id === f.sec) || {}).name || "";
+  return `<div class="eyebrow">${esc(where)}${fmt ? " · " + esc(fmt) : ""}${decade ? " · " + decade + "s" : ""}</div>
+    <h2 class="${f.t.length > 40 ? "xlong" : f.t.length > 18 ? "long" : ""}">${esc(f.t)}</h2>
+    <div class="meta">${[f.yrs || f.y ? `<b>${esc(f.yrs || f.y)}</b>` : "", f.m ? `${f.m} min` : "", f.d ? `${f.role ? esc(f.role.toLowerCase()) : "dir."} ${esc(f.d)}` : ""].filter(Boolean).join(" · ")}</div>
+    ${f.c.length ? `<div class="cast"><span>${CASTLABEL[f.sec] || "Starring"}</span> ${esc(f.c.join(", "))}</div>` : ""}
+    <p class="syn">${esc(f.s || "")}</p>
+    ${scores ? `<div class="scores">${scores}</div>` : ""}`;
+}
+function nextSlide() {
+  if (!deck.length) shuffleDeck();
+  const f = deck.pop(), card = $("#idleCard");
+  const show = () => { card.className = "idle-card " + eraClass(f.y); card.innerHTML = idleSlide(f); };
+  if (reduced() || !card.innerHTML) { show(); return; }
+  card.classList.add("out");
+  setTimeout(() => { show(); card.classList.add("out"); requestAnimationFrame(() => requestAnimationFrame(() => card.classList.remove("out"))); }, 900);
+}
+function tick() { const d = new Date(); $("#clock").textContent = d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+  $("#date").textContent = d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" }).replace(",", ""); }
+
+// Weather for Brighton from Open-Meteo (free, no account). Works on the GitHub version; hidden if the fetch is blocked.
+const WX_PLACE = { name: "Brighton", lat: 50.82, lon: -0.11 };
+const WMO = { 0: "Clear", 1: "Mostly clear", 2: "Partly cloudy", 3: "Cloudy", 45: "Fog", 48: "Fog", 51: "Light drizzle", 53: "Drizzle", 55: "Heavy drizzle",
+  56: "Freezing drizzle", 57: "Freezing drizzle", 61: "Light rain", 63: "Rain", 65: "Heavy rain", 66: "Freezing rain", 67: "Freezing rain",
+  71: "Light snow", 73: "Snow", 75: "Heavy snow", 77: "Snow grains", 80: "Showers", 81: "Showers", 82: "Heavy showers", 85: "Snow showers", 86: "Snow showers",
+  95: "Thunderstorm", 96: "Thunderstorm, hail", 99: "Thunderstorm, hail" };
+let wxAt = 0;
+async function loadWeather() {
+  if (Date.now() - wxAt < 30 * 60 * 1000) return;
+  try {
+    const u = `https://api.open-meteo.com/v1/forecast?latitude=${WX_PLACE.lat}&longitude=${WX_PLACE.lon}&current=temperature_2m,weather_code,wind_speed_10m` +
+      `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Europe%2FLondon&forecast_days=3&wind_speed_unit=mph`;
+    const r = await fetch(u); if (!r.ok) throw new Error(r.status);
+    const w = await r.json(), c = w.current, dl = w.daily;
+    const day = (i) => i === 0 ? "Today" : new Date(dl.time[i] + "T12:00").toLocaleDateString("en-GB", { weekday: "short" });
+    $("#wx").innerHTML = `<div class="now">${Math.round(c.temperature_2m)}°C<span>${esc(WMO[c.weather_code] || "")} · ${esc(WX_PLACE.name)}</span></div>
+      <div class="days">${dl.time.map((_, i) => `<span><b>${day(i)}</b> ${Math.round(dl.temperature_2m_max[i])}°/${Math.round(dl.temperature_2m_min[i])}°${dl.precipitation_probability_max[i] >= 30 ? ` · rain ${dl.precipitation_probability_max[i]}%` : ""}</span>`).join("")}</div>`;
+    $("#wx").hidden = false; wxAt = Date.now();
+  } catch (e) { $("#wx").hidden = true; }
+}
+async function startIdle() {
+  if (!$("#idle").hidden) return;
+  shuffleDeck(); $("#idleCard").innerHTML = ""; $("#idle").hidden = false; document.body.classList.add("idling");
+  tick(); loadWeather(); loadNews(); clockTimer = setInterval(() => { tick(); loadWeather(); loadNews(); }, 15000);
+  nextSlide(); slideTimer = setInterval(nextSlide, SLIDE_EVERY);
+  try { wakeLock = await navigator.wakeLock?.request("screen"); } catch (e) { wakeLock = null; }
+}
+function stopIdle() {
+  if ($("#idle").hidden) return;
+  $("#idle").hidden = true; document.body.classList.remove("idling"); clearInterval(slideTimer); clearInterval(clockTimer);
+  try { wakeLock?.release(); } catch (e) {} wakeLock = null;
+}
+function poke() { clearTimeout(idleTimer); idleTimer = setTimeout(startIdle, IDLE_AFTER); }
+["pointerdown", "keydown", "wheel", "touchstart", "scroll"].forEach((ev) => addEventListener(ev, poke, { passive: true }));
+$("#idle").addEventListener("pointerdown", (e) => { e.stopPropagation(); stopIdle(); poke(); });
+addEventListener("keydown", () => { stopIdle(); });
+$("#showStart").addEventListener("click", (e) => { e.stopPropagation(); startIdle(); });
+document.addEventListener("visibilitychange", async () => { if (!document.hidden && !$("#idle").hidden) { try { wakeLock = await navigator.wakeLock?.request("screen"); } catch (e) {} } });
+poke();
+
+// News ticker: reads news.json, which a GitHub workflow refreshes from BBC feeds every 30 minutes.
+// Raw GitHub first (freshest), then the copy published with the site. Hidden if neither loads.
+const NEWS_URLS = ["https://raw.githubusercontent.com/garayr/videolibrary/main/news.json", "news.json"];
+let newsAt = 0, newsRotate = null;
+async function loadNews() {
+  if (Date.now() - newsAt < 30 * 60 * 1000) return;
+  for (const u of NEWS_URLS) {
+    try {
+      const r = await fetch(u + "?t=" + Math.floor(Date.now() / 600000), { cache: "no-store" }); if (!r.ok) continue;
+      const items = ((await r.json()).items || []).filter((i) => i && i.title).slice(0, 24);
+      if (!items.length) continue;
+      showNews(items); newsAt = Date.now(); return;
+    } catch (e) {}
+  }
+  if (!newsAt) { $("#ticker").hidden = true; $("#idle").classList.remove("has-news"); }
+}
+function showNews(items) {
+  const html = items.map((i) => `<span><b>${esc(i.src || "")}</b>${esc(i.title)}</span>`).join("");
+  const track = $("#tickerTrack");
+  clearInterval(newsRotate);
+  $("#ticker").hidden = false; $("#idle").classList.add("has-news");
+  if (reduced()) {
+    let n = 0; const one = () => { track.style.animation = "none"; track.innerHTML = `<span><b>${esc(items[n].src || "")}</b>${esc(items[n].title)}</span>`; n = (n + 1) % items.length; };
+    one(); newsRotate = setInterval(one, 8000); return;
+  }
+  track.innerHTML = html + html;  // doubled for a seamless loop
+  const secs = Math.max(40, Math.round(track.scrollWidth / 2 / 70));  // about 70px a second
+  track.style.animation = `tick ${secs}s linear infinite`;
+}
 </script>
 
 </body>
