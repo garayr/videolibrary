@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-21T14:10+00:00",
+ "updated": "2026-10-21T15:04+00:00",
  "items": [
+  {
+   "src": "UK",
+   "title": "Jailed former DUP leader Jeffrey Donaldson being investigated over alleged rape inside Parliament",
+   "link": "https://www.bbc.co.uk/news/articles/c94g1pjmxg0ko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "World",
+   "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
+   "link": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sussex",
+   "title": "Abuse victims may lose trust, immunity case told",
+   "link": "https://www.bbc.co.uk/news/articles/c6ly392y4x0ko?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sport",
+   "title": "Andrews died of tear in artery around heart - autopsy",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmx234p2xwpzo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "src": "UK",
    "title": "Lawyer caught offering to make illegal-worker fine go away",
@@ -8,8 +28,8 @@
   },
   {
    "src": "World",
-   "title": "US citizen Stephen Hubbard freed by Russia as Trump envoy meets Putin",
-   "link": "https://www.bbc.co.uk/news/articles/c6m24l9v3745o?at_medium=RSS&at_campaign=rss"
+   "title": "Macron accuses foreign leaders of exploiting French riots",
+   "link": "https://www.bbc.co.uk/news/articles/ckjrw044ggxgo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sussex",
@@ -48,8 +68,8 @@
   },
   {
    "src": "World",
-   "title": "Katya Adler: France divided over who to blame for riots and what to learn from them",
-   "link": "https://www.bbc.co.uk/news/articles/cq0me4g9p970o?at_medium=RSS&at_campaign=rss"
+   "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
+   "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sussex",
@@ -65,26 +85,6 @@
    "src": "UK",
    "title": "Crystal Palace urged to retire bald eagle mascot",
    "link": "https://www.bbc.co.uk/sport/football/articles/cmx2302r04r4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "World",
-   "title": "Elon Musk confirms he is considering merging Tesla and SpaceX",
-   "link": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sussex",
-   "title": "Jury considers verdict in Kieran Hayler rape trial",
-   "link": "https://www.bbc.co.uk/news/articles/crwydlv1p210o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sport",
-   "title": "Kildunne drops to bench as England ring changes",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c3ewe42q4jqzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "UK",
-   "title": "Civil servant admits he 'made mistakes' juggling five government jobs",
-   "link": "https://www.bbc.co.uk/news/articles/cmze4w63ly42o?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
