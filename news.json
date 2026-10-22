@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:03+00:00",
+ "updated": "2026-10-22T22:01+00:00",
  "items": [
   {
    "src": "UK",
@@ -12,9 +12,14 @@
    "link": "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "src": "Sussex",
+   "title": "Katie Price's ex not guilty of raping girl, 13",
+   "link": "https://www.bbc.co.uk/news/articles/cw1m4pmvx1xdo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "src": "Sport",
-   "title": "Brook underlines status as world's best all-format batter in remarkable defeat",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cmd93kw9q5v3o?at_medium=RSS&at_campaign=rss"
+   "title": "Dream night for Bournemouth - win over Milan a sign of Premier League power",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c6z981p24q1eo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
@@ -25,6 +30,31 @@
    "src": "World",
    "title": "Race to update services' computer systems after cyber-security flaw found",
    "link": "https://www.bbc.co.uk/news/articles/c9j34zgmkxx1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sussex",
+   "title": "Fresh drought measures to protect drinking water",
+   "link": "https://www.bbc.co.uk/news/articles/cqglwgjzzpd5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sport",
+   "title": "Brook underlines status as world's best all-format batter in remarkable defeat",
+   "link": "https://www.bbc.co.uk/sport/cricket/articles/cmd93kw9q5v3o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "UK",
+   "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+   "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "World",
+   "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+   "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sussex",
+   "title": "Dogs evacuated from blaze at business park",
+   "link": "https://www.bbc.co.uk/news/articles/cvrly27179n1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sport",
@@ -33,13 +63,18 @@
   },
   {
    "src": "UK",
-   "title": "Trump ordered to answer questions under oath in BBC lawsuit",
-   "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
+   "title": "Items recovered in search for missing fishing boat and crew",
+   "link": "https://www.bbc.co.uk/news/articles/c6m2dwddl3xlo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "World",
-   "title": "Trump ordered to answer questions under oath in BBC lawsuit",
-   "link": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss"
+   "title": "Trump says Musk has restored Ukraine's internet access",
+   "link": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sussex",
+   "title": "'Abattoirs are in crisis state and need support'",
+   "link": "https://www.bbc.co.uk/news/articles/c8vgx4z03k50o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sport",
@@ -50,21 +85,6 @@
    "src": "UK",
    "title": "Russell Brand accuser said alleged rape 'really hurt', court hears",
    "link": "https://www.bbc.co.uk/news/articles/c9e8lz4mrg88o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "World",
-   "title": "Crowd of 50 beats foreigner to death in South Africa",
-   "link": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sport",
-   "title": "What next for Australia after chastening defeat by South Africa?",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/cmg473p9vz6xo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "UK",
-   "title": "Barclays cutting 5,000 jobs as it increases reliance on AI",
-   "link": "https://www.bbc.co.uk/news/articles/cm4g1p347qgxo?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
