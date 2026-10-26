@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-26T13:54+00:00",
+ "updated": "2026-10-26T15:34+00:00",
  "items": [
+  {
+   "src": "UK",
+   "title": "Independent review announced into murder of student Henry Nowak",
+   "link": "https://www.bbc.co.uk/news/articles/cv70pnw784x7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "World",
+   "title": "Lula wins fourth term in dramatic Brazil election comeback",
+   "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sussex",
+   "title": "Flood warnings and water shortages after storm",
+   "link": "https://www.bbc.co.uk/news/articles/ck1wvzr7d8j7o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sport",
+   "title": "A late goal and a knee slide - how Mourinho returned to haunt Barca",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss"
+  },
   {
    "src": "UK",
    "title": "Storm Boelo leaves 90,000 without power as Met Office issues new wind warning",
@@ -13,42 +33,22 @@
   },
   {
    "src": "Sussex",
-   "title": "Flood warnings and water shortages after storm",
-   "link": "https://www.bbc.co.uk/news/articles/ck1wvzr7d8j7o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sport",
-   "title": "End approaching for Carrick but Man Utd fans make clear who they blame",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cwm24jk9743yo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "UK",
-   "title": "Healey to shield low-income pensioners from income tax in the Budget",
-   "link": "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "World",
-   "title": "Venezuelan opposition leader María Machado returns after months in exile",
-   "link": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sussex",
    "title": "Quads used for clean-up of plastic pellets stolen",
    "link": "https://www.bbc.co.uk/news/articles/cqly02nj0kj6o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sport",
-   "title": "Mourinho keeps Clasico midas touch 13 years on as La Liga heats up",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cr3wvz20pglqo?at_medium=RSS&at_campaign=rss"
+   "title": "Racecourse fined after jockey taken to A&E in horsebox",
+   "link": "https://www.bbc.co.uk/sport/horse-racing/articles/c6lykg4l72xlo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
-   "title": "Daughter wins £127k claim for caring for mum at home",
-   "link": "https://www.bbc.co.uk/news/articles/cr93zp78g580o?at_medium=RSS&at_campaign=rss"
+   "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+   "link": "https://www.bbc.co.uk/news/articles/cq3dje4g4d5jo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "World",
-   "title": "AI giant Anthropic unveils plans for blockbuster share listing",
+   "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
    "link": "https://www.bbc.co.uk/news/articles/cq398p1wd1evo?at_medium=RSS&at_campaign=rss"
   },
   {
@@ -58,13 +58,13 @@
   },
   {
    "src": "Sport",
-   "title": "Borthwick's autumn questions as World Cup looms",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ck20wj7znqy8o?at_medium=RSS&at_campaign=rss"
+   "title": "Ireland prop Furlong cited over alleged groin grab",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwg5jn7845jdo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
-   "title": "Consultant doctors in England to strike next month",
-   "link": "https://www.bbc.co.uk/news/articles/c69wzxw2pvv0o?at_medium=RSS&at_campaign=rss"
+   "title": "Healey to shield low-income pensioners from income tax in the Budget",
+   "link": "https://www.bbc.co.uk/news/articles/ck98zp7zeq65o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "World",
@@ -78,13 +78,13 @@
   },
   {
    "src": "Sport",
-   "title": "Late Mbappe goal earns Real win at Barca in dramatic Clasico",
-   "link": "https://www.bbc.co.uk/sport/football/videos/crje5zewk52no?at_medium=RSS&at_campaign=rss"
+   "title": "End approaching for Carrick but Man Utd fans make clear who they blame",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cwm24jk9743yo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
-   "title": "Burnham leaves door open to referendum on EU free movement",
-   "link": "https://www.bbc.co.uk/news/articles/cx240dpzv009o?at_medium=RSS&at_campaign=rss"
+   "title": "Daughter wins £127k claim for caring for mum at home",
+   "link": "https://www.bbc.co.uk/news/articles/cr93zp78g580o?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
