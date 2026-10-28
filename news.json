@@ -1,6 +1,26 @@
 {
- "updated": "2026-10-28T19:42+00:00",
+ "updated": "2026-10-28T20:35+00:00",
  "items": [
+  {
+   "src": "UK",
+   "title": "Healey unveils £100 for energy bills and bank tax in first Budget",
+   "link": "https://www.bbc.co.uk/news/articles/cqpvgxz3y49go?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "World",
+   "title": "Flávio Bolsonaro lands in Miami after defeat in Brazil's presidential election",
+   "link": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sussex",
+   "title": "Family of couple held in Iran meet with Ed Miliband",
+   "link": "https://www.bbc.co.uk/news/articles/ck9qzdvr2x0eo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sport",
+   "title": "Sesko ruled out until January with shin injury",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cq33xl50vyj2o?at_medium=RSS&at_campaign=rss"
+  },
   {
    "src": "UK",
    "title": "Chris Mason: Budget felt cautious despite its range of small measures",
@@ -10,26 +30,6 @@
    "src": "World",
    "title": "Netanyahu's bloc leading Israel election but short of majority, partial results show",
    "link": "https://www.bbc.co.uk/news/articles/cmdx3knq1xexo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sussex",
-   "title": "Family of couple held in Iran meet with Ed Miliband",
-   "link": "https://www.bbc.co.uk/news/articles/ck9qzdvr2x0eo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sport",
-   "title": "Red Roses make six changes but Kildunne on bench again",
-   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cq1m4kn84gk2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "UK",
-   "title": "Russell Brand tells trial sexual consent is 'fundamental'",
-   "link": "https://www.bbc.co.uk/news/articles/cmvgxl5kdgrzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "World",
-   "title": "How could Israel break election deadlock? Here are four scenarios",
-   "link": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sussex",
@@ -43,6 +43,26 @@
   },
   {
    "src": "UK",
+   "title": "Russell Brand tells trial sexual consent is 'fundamental'",
+   "link": "https://www.bbc.co.uk/news/articles/cmvgxl5kdgrzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "World",
+   "title": "How could Israel break election deadlock? Here are four scenarios",
+   "link": "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sussex",
+   "title": "Verbal abuse and spitting directed at road workers",
+   "link": "https://www.bbc.co.uk/news/articles/cm20v3xxv2rpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sport",
+   "title": "Red Roses make six changes but Kildunne on bench again",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cq1m4kn84gk2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "UK",
    "title": "Tommy Robinson guilty of harassing two Daily Mail journalists",
    "link": "https://www.bbc.co.uk/news/articles/cq2d6z36pp53o?at_medium=RSS&at_campaign=rss"
   },
@@ -53,8 +73,8 @@
   },
   {
    "src": "Sussex",
-   "title": "Verbal abuse and spitting directed at road workers",
-   "link": "https://www.bbc.co.uk/news/articles/cm20v3xxv2rpo?at_medium=RSS&at_campaign=rss"
+   "title": "Fire crews tackle house blaze in village",
+   "link": "https://www.bbc.co.uk/news/articles/cvde857j05xgo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sport",
@@ -65,26 +85,6 @@
    "src": "UK",
    "title": "Terminally ill mum who can't talk, walk or dress herself refused Pip payment",
    "link": "https://www.bbc.co.uk/news/articles/ckqxndjqdddro?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "World",
-   "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-   "link": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sussex",
-   "title": "Fire crews tackle house blaze in village",
-   "link": "https://www.bbc.co.uk/news/articles/cvde857j05xgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sport",
-   "title": "Perez signs multi-year extension with Cadillac",
-   "link": "https://www.bbc.co.uk/sport/formula1/articles/cqde852ww04ko?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "UK",
-   "title": "Huntingdon train attacker asked man 'do you want to die?', trial hears",
-   "link": "https://www.bbc.co.uk/news/articles/c98rz185z4nno?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
