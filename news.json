@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T01:59+00:00",
+ "updated": "2026-11-01T09:06+00:00",
  "items": [
   {
    "src": "UK",
@@ -8,18 +8,38 @@
   },
   {
    "src": "World",
+   "title": "Shops looted as German cost of living protests turn violent",
+   "link": "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sussex",
+   "title": "Brighton's West Pier and its battle with nature",
+   "link": "https://www.bbc.co.uk/news/articles/crz98q2gw24xo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sport",
+   "title": "Are Manchester United really at risk of a relegation scrap?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c8g47wl06vkqo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "UK",
+   "title": "Reeves says UK's future should be inside the EU",
+   "link": "https://www.bbc.co.uk/news/articles/c62l4yz0eexpo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "World",
    "title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
    "link": "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sussex",
-   "title": "Man arrested on suspicion of attempted murder",
-   "link": "https://www.bbc.co.uk/news/articles/cxr5ypygrlrlo?at_medium=RSS&at_campaign=rss"
+   "title": "Lewes Bonfire 2026: All you need to know",
+   "link": "https://www.bbc.co.uk/news/articles/cmqln71lg379o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sport",
-   "title": "Chelsea beat 10-man Man Utd to pile more pressure on Carrick",
-   "link": "https://www.bbc.co.uk/sport/football/videos/ckn8w20nn9g7o?at_medium=RSS&at_campaign=rss"
+   "title": "Anfield, intensity, rotation - how Iraola is improving Liverpool",
+   "link": "https://www.bbc.co.uk/sport/football/articles/ckzd6217j7pgo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
@@ -33,13 +53,13 @@
   },
   {
    "src": "Sussex",
-   "title": "Was this the 'world's wickedest man'?",
-   "link": "https://www.bbc.co.uk/news/articles/c9146m0n8g3do?at_medium=RSS&at_campaign=rss"
+   "title": "Man arrested on suspicion of attempted murder",
+   "link": "https://www.bbc.co.uk/news/articles/cxr5ypygrlrlo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sport",
-   "title": "Brighton pick up first away league victory over Man City",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cqx28l2gdepxo?at_medium=RSS&at_campaign=rss"
+   "title": "On 'tense' Antonelli's big weekend, this was Hamilton's day",
+   "link": "https://www.bbc.co.uk/sport/formula1/articles/cje36e0gze4ko?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
@@ -48,43 +68,23 @@
   },
   {
    "src": "World",
-   "title": "Thousands demonstrate in Paris as protests spread across Europe",
-   "link": "https://www.bbc.co.uk/news/videos/ck0j0y87j303o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sussex",
-   "title": "Tony Hadley 'still at it' after 50 years in music",
-   "link": "https://www.bbc.co.uk/news/articles/cq1m47mm314mo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sport",
-   "title": "Coventry out of bottom three after win over struggling Sunderland",
-   "link": "https://www.bbc.co.uk/sport/football/videos/cm93zv0zkjqlo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "UK",
-   "title": "Thick fog to create hazardous driving conditions into next week",
-   "link": "https://www.bbc.co.uk/weather/articles/c3n04pl19zzqo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "World",
    "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
    "link": "https://www.bbc.co.uk/news/articles/ckpdg3ql4169o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sussex",
-   "title": "Anticipation builds for Celebrity Traitors finale",
-   "link": "https://www.bbc.co.uk/news/articles/c9kgjp4v86v1o?at_medium=RSS&at_campaign=rss"
+   "title": "Was this the 'world's wickedest man'?",
+   "link": "https://www.bbc.co.uk/news/articles/c9146m0n8g3do?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sport",
-   "title": "Enciso's stunning goal earns Ipswich draw at Hull",
-   "link": "https://www.bbc.co.uk/sport/football/videos/c8qln4qq2656o?at_medium=RSS&at_campaign=rss"
+   "title": "Third-choice? Inside Alexander-Arnold's struggles in Madrid",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c9e8lp357je7o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
-   "title": "Second night of drone disruption at Jersey Airport",
-   "link": "https://www.bbc.co.uk/news/articles/cqkgl4nmp8lyo?at_medium=RSS&at_campaign=rss"
+   "title": "Thick fog to create hazardous driving conditions into next week",
+   "link": "https://www.bbc.co.uk/weather/articles/c3n04pl19zzqo?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
