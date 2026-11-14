@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T18:42+00:00",
+ "updated": "2026-11-14T00:15+00:00",
  "items": [
   {
    "src": "UK",
@@ -8,8 +8,8 @@
   },
   {
    "src": "World",
-   "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
-   "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+   "title": "'Miracle on Mississippi' - All rescued after cruise ship hit by tanker in New Orleans",
+   "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sussex",
@@ -18,8 +18,8 @@
   },
   {
    "src": "Sport",
-   "title": "Tearful Pochettino on 'difficult' decision to leave USA for Man Utd",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss"
+   "title": "Fitness obsessed & 'control freak' - what can Man Utd expect from Pochettino?",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c85y13pv69xwo?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
@@ -28,8 +28,28 @@
   },
   {
    "src": "World",
-   "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
-   "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss"
+   "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+   "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sussex",
+   "title": "Christian festival to miss 2027 after pastor's death",
+   "link": "https://www.bbc.co.uk/news/articles/c8e39ze1kl9no?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "Sport",
+   "title": "France hold nerve to edge past South Africa in thriller",
+   "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cqm2j810r2m2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "UK",
+   "title": "US Air Force says it responded to 'suspected drones' over RAF Lakenheath",
+   "link": "https://www.bbc.co.uk/news/articles/c6jd75geegzyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "src": "World",
+   "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+   "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sussex",
@@ -38,8 +58,8 @@
   },
   {
    "src": "Sport",
-   "title": "How Ferguson-inspired Pochettino can succeed where Carrick failed at Man Utd",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cm2kljzkw77ko?at_medium=RSS&at_campaign=rss"
+   "title": "Goalkeeper involved in fatal collision gets 12-game ban",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cm98xy2j8k1ko?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
@@ -48,28 +68,8 @@
   },
   {
    "src": "World",
-   "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-   "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sussex",
-   "title": "How Microsoft outage affected South East NHS trusts, councils and police",
-   "link": "https://www.bbc.co.uk/news/articles/cm4gn5p1vykgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "Sport",
-   "title": "Eight sentenced to jail over Nurmagomedov-Dvalishvili brawl",
-   "link": "https://www.bbc.co.uk/sport/mixed-martial-arts/articles/cm3wgpl28yzgo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "UK",
-   "title": "Reform and Tory spokesmen in angry clash over immigration at Piddington",
-   "link": "https://www.bbc.co.uk/news/articles/cr9d7y937n58o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "src": "World",
-   "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-   "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
+   "title": "Watch: How a server outage took down Microsoft Teams and Outlook",
+   "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "Sussex",
@@ -78,13 +78,13 @@
   },
   {
    "src": "Sport",
-   "title": "Surfing speedster Beardman gives a glimpse of Ashes future",
-   "link": "https://www.bbc.co.uk/sport/cricket/articles/c6vg2dkyxp00o?at_medium=RSS&at_campaign=rss"
+   "title": "Tearful Pochettino on 'difficult' decision to leave USA for Man Utd",
+   "link": "https://www.bbc.co.uk/sport/football/articles/cmd61qne8352o?at_medium=RSS&at_campaign=rss"
   },
   {
    "src": "UK",
-   "title": "Eleanor Donaldson given supervision order and placed on sex offenders' register",
-   "link": "https://www.bbc.co.uk/news/articles/cme87dnngnwjo?at_medium=RSS&at_campaign=rss"
+   "title": "Reform and Tory spokesmen in angry clash over immigration at Piddington",
+   "link": "https://www.bbc.co.uk/news/articles/cr9d7y937n58o?at_medium=RSS&at_campaign=rss"
   }
  ]
 }
